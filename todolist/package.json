@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "[my-framework] build --output public",
-
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -28,6 +30,4 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   }
-  
-
 }
