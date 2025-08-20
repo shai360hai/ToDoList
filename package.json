@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "build": "[my-framework] build --output public",
     "start": "next start",
     "lint": "next lint"
   },
@@ -30,4 +30,6 @@
     "tailwindcss": "^4",
     "typescript": "^5"
   }
+  
+
 }
