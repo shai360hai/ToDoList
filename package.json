@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
     "build": "[my-framework] build --output public",
-    "start": "next start",
-    "lint": "next lint"
+
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
